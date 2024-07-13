@@ -1,0 +1,22 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+.row{
+    height: 300px;
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+    
+}
+.row div{
+    flex: 1;
+}
+.varticle-img{
+    height: calc((100%-5%)/2)
+}
+.varticle2{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 3px;
+}
